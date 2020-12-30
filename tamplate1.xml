@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.tw.bimsis.platform.application.ddpart:DamageDataModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.tw.bimsis.platform.application.ddpart="http://tragwerk-software.de/bimsis/damagedatamodel/1.0.0">
+  <damageDataElements id="67e86b85-f27c-4316-b27d-d93b647584b1">
+    <linkData>
+      <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT"/>
+    </linkData>
+    <categories id="StoneDamage" categoryName="test1">
+      <subCategories id="Crack" categoryName="test2">
+        <subCategories id="Craquele" categoryName="test3">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Craqueleinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Fracture" categoryName="Fracture">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Fractureinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Splitting" categoryName="Splitting">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Splittinginfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="StarCrack" categoryName="StarCrack">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="StarCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="SingleCrack" categoryName="SingleCrack">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="SingleCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_CRACK_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackDirection" enumId="DAMAGE_CRACK_DIRECTION_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackNumber" enumId="DAMAGE_CRACK_NUMBER_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackSpacing" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackWidth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackLength" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Crackinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
+        <subCategories id="Alga" categoryName="Alga">
+          <subCategories id="GreenAlga" categoryName="GreenAlga">
+            <attributes>
+              <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
+            </attributes>
+            <applicableForObjectTypes>STONE</applicableForObjectTypes>
+          </subCategories>
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Algainfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Lichen" categoryName="Lichen" selected="true">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Licheninfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Moss" categoryName="Moss">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mossinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Plants" categoryName="Plants">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Plantsinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Mould" categoryName="Mould">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mouldinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_BIO_ENUM">
+            <value name="Lichen" description="" id="1"/>
+          </nonDocumentFields>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="LayerColor" enumId="DAMAGE_LAYER_COLOR_BIO_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="LayerThickness" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="BiologicalColonisationinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <attributes>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
+          <value name="BiologicalColonisation" description="" id="0"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM">
+          <value name="" description="" id="1"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM">
+          <value name="" description="" id="0"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="numDiffDamages" digits="0" unit=""/>
+      </attributes>
+      <applicableForObjectTypes>STONE</applicableForObjectTypes>
+    </categories>
+    <damageIntensity key="DAMAGE_INTESITY_ENUM" enumId="DAMAGE_INTESITY_ENUM">
+      <value name="" description="" id="1"/>
+    </damageIntensity>
+    <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
+      <value name="" description="" id="0"/>
+    </damageExtent>
+  </damageDataElements>
+  <buildingElements>
+    <buildingElements id="1lAZ5kICz7yeWcERWHS$EL" stoneElement="true" jointElement="false"/>
+    <buildingElements id="28o$fs5Kz8kgVw7eOfQ2T7" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3cULw515HBPRjSAzPZits7" stoneElement="true" jointElement="false"/>
+    <buildingElements id="2Kpv0hyGn9WuoBEN6ToA7y" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0aSSDtGMLEfQFGspD0U315" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1BRBS63xnAw9puBBVM8bLC" stoneElement="true" jointElement="false"/>
+    <buildingElements id="10Py_IJmz478nMZK44fxP9" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3Y3OaU_AX3bhCymTbm9sVL" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3_xSBM9f50Ku9cuEqL8qEU" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3gQx30sk91ROAs_aV8LiJC" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0CTIejA5909g6HuD75eUgn" stoneElement="true" jointElement="false"/>
+    <buildingElements id="36IHWPSpX06u6jpXTlKnMz" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0asEBTFnb94fnMi4lnUw4j" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3CRuORArn1cxO5faU8Y10o" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0RAArs7tLAOgw_hWkblyRm" stoneElement="true" jointElement="false"/>
+    <buildingElements id="30O3BD2U55SPU_6vTVevj$" stoneElement="true" jointElement="false"/>
+    <buildingElements id="17k378kHz7jhMGjwEP63iV" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1QaJsseT9DRR8Dr88xTeX7" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3dJhufhJT8Lex3gkwIhObk" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0nLFzLGur0cvVmPw19xtcz" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1mZWdxIvX2w94D2cWH8htq" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3x2frpcLfF1xSilmACDNGr" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1XYFnqV559XeiT17QcsvUp" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1P6YnhJpH5KAlob25e4Koi" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1rVphlsSD2Sw1hRoCZiIFG" stoneElement="true" jointElement="false"/>
+    <buildingElements id="1MS$a39bzAHBFIfCmK4_08" stoneElement="true" jointElement="false"/>
+    <buildingElements id="3TG$Jb4rD6fvNQbUALBqY4" stoneElement="true" jointElement="false"/>
+    <buildingElements id="16SZjFwQjBMxgKXi$qwMqT" stoneElement="true" jointElement="false"/>
+    <buildingElements id="0f9FP5hYTAN8LgmmVrW9Ks" stoneElement="true" jointElement="false"/>
+    <buildingElements id="2RH2aFlhnBmhqlKjVO2WQH" stoneElement="true" jointElement="false"/>
+  </buildingElements>
+  <defaultDamageDataTemplate id="">
+    <linkData/>
+    <categories id="StoneDamage" categoryName="Test1" description="Lorem Ipsum">
+      <subCategories id="Crack" categoryName="Crack" description="Ein Riss ist ein einzelner Spalt (Trennung), der deutlich mit dem Auge sichtbar ist. Ein Riss entsteht durch die Trennung von zwei Teilen." directoryForPictures="images/damageCategories/1/">
+        <subCategories id="Craquele" categoryName="Craquele" description="Ein Craquel&#xe8;, auch Rissnetz genannt, ist ein Netzwerk von kleineren, richtungslosen Rissen." directoryForPictures="images/damageCategories/1a/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Craqueleinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Fracture" categoryName="Fracture" description="Ein Bruch beschreibt einen Riss, der vollst&#xe4;ndig durch ein Gestein durchgeht." directoryForPictures="images/damageCategories/1b/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Fractureinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Splitting" categoryName="Splitting" description="Auseinanderbrechen eines Steins entlangvon Schw&#xe4;chzonen wie Mikrorissen oder Ton./Siltlagen, wenn diese vertikal ausgerichtet sind. Eine S&#xe4;ule kann zum Beispiel entlang der Schichtfl&#xe4;chenin mehrere Teile aufspalten, wenn die Auflast zu hoch ist." directoryForPictures="images/damageCategories/1c/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Splittinginfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="StarCrack" categoryName="StarCrack" description="Sternf&#xf6;rmige Risse besitzen das Aussehen von einem Stern. Rostende Eisen oder ein Einschlag sind m&#xf6;gliche Ursachen." directoryForPictures="images/damageCategories/1d/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="StarCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="SingleCrack" categoryName="SingleCrack" description="Lorem ipsum..." directoryForPictures="images/damageCategories/1e/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="SingleCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_CRACK_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackDirection" enumId="DAMAGE_CRACK_DIRECTION_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackNumber" enumId="DAMAGE_CRACK_NUMBER_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackSpacing" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackWidth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackLength" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Crackinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation" description="Die Biologische Besiedlung bezeichnet die Besiedlung von Gesteinen Mikroorganismen wie Bakterien, Cyanobakterien, Algen, Pilze und Flechten (Symbiosen zwischen den drei Letztgenannten) und durch h&#xf6;here Pflanzen und. Biologische Besiedlung umfasst auch Einfl&#xfc;sse durch andere Organismen, wie den Nestbau von Tieren auf und im Stein." directoryForPictures="images/damageCategories/0/">
+        <subCategories id="Alga" categoryName="Alga" description="Algen sind pflanzliche Mikroorganismen ohne Stengel und Bl&#xe4;tter, die sowohl im Freien als auch in Innenr&#xe4;umen in Gestalt von pulvrigen bis viskosen Ablagerungen von einem Zehntel bis einige Millimeter Dicke gefunden werden. Algen bilden gr&#xfc;ne, rote, braune oder schwarze schleierartige &#xdc;berz&#xfc;ge und kommen haupts&#xe4;chlich dort vor, wo das Substrat l&#xe4;ngere Zeit feucht bleibt. Abh&#xe4;ngig von den Umgebungsbedingungen und vom Substrat bilden Algen kompakte oder feine, filmartige &#xdc;berz&#xfc;ge. Die an Denkm&#xe4;lern auftretenden Algen bestehen aus einzelligen bis vierzelligen Clustern. Algen bilden keine Makroorganismen aus." directoryForPictures="images/damageCategories/0a/">
+          <subCategories id="GreenAlga" categoryName="GreenAlga" description="Verschiedene Gruppen von Algen k&#xf6;nnen auf und im Stein wachsen, abh&#xe4;ngig vom Klima und vom Gesteinstyp. Die Gr&#xfc;nalgen zeichnen sich durch ihre gr&#xfc;ne Farbe aus. In selteren F&#xe4;llen k&#xf6;nnen Gr&#xfc;nalgen eine Rotf&#xe4;rbung aufweisen wie zum Beispiel Trentepholia. In manchen F&#xe4;llen dient das Gestein als Nahrungsquelle. Normalerweise stellt die Gesteins-oberfl&#xe4;che aber nur einen geeigneten Untergrund f&#xfc;r das Algenwachstum dar.">
+            <attributes>
+              <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
+            </attributes>
+            <applicableForObjectTypes>STONE</applicableForObjectTypes>
+          </subCategories>
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Algainfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Lichen" categoryName="Lichen" description="Flechten sind pflanzliche Organismen, die Millimeter bis Zentimeter gro&#xdf;e krustenartige oder buschige Flecken bilden. Die Flecken besitzen oft ein lederatiges Aussehen. Flechten wachsen generell an der Au&#xdf;enseite eines Geb&#xe4;udes. Sie sind gew&#xf6;hnliche grau, gelb, gr&#xfc;n, orange oder schwarz und zeigen keine Differenzierung im Stamm, Wurzel und Blatt. Alle Flechtenrepr&#xe4;sentieren ein symbiotisches Wachstum zwischen einem Pilz, einer Alge oder einem Cyanobakterium." directoryForPictures="images/damageCategories/0b/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Licheninfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Moss" categoryName="Moss" description="Moose sind pflanzliche Organismen, die kleine, weiche, gr&#xfc;ne Kissen von Zentimetergr&#xf6;&#xdf;e bilden. Moose sehen im Allgemeinen wie dichte Mikrobl&#xe4;tter (Sub- bis Millimetergr&#xf6;&#xdf;e) aus, die dicht zusammen gepackt sind. Moose wachsen oft auf der Steinoberfl&#xe4;che in offenen Aush&#xf6;hlungen, Rissen oder an anderen Stellen, die andauernd oder h&#xe4;ufig feucht (Mauerwerksfugen) und gew&#xf6;hnlich schattig sind. Moose &#xe4;ndern ihr Erscheinungsbild oder ihre Farbe bei Wassermangel oder Wasser&#xfc;berschuss. W&#xe4;hrend Trockenperioden des Jahres schrumpfen die Mooskissen, werden hart und spr&#xf6;de und &#xe4;ndern ihre Farbe nach Braun." directoryForPictures="images/damageCategories/0c/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mossinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Plants" categoryName="Plants" description="Pflanzen sind pflanzliche Lebenwesen, welche voll ausgebildete Wurzeln, St&#xe4;mme und Bl&#xe4;tter besitzen, obwohl eine Pflanze manchmal nur aus einem einzigen begr&#xfc;nten Austrieb besteht (z.B. Baum, Farn, Kraut)." directoryForPictures="images/damageCategories/0d/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Plantsinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Mould" categoryName="Mould" description="Schimmel sind mikroskopische, Kolonien bildende Pilze, die bei blo&#xdf;em Auge wie ein flaumiger Film oder wie ein Netzwerk, oder sternenf&#xf6;rmig Millimeter gro&#xdf;e Flecken, bestehend aus F&#xe4;den verschiedener Farben (wei&#xdf;, grau, schwarz) aussehen." directoryForPictures="images/damageCategories/0e/">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mouldinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_BIO_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="LayerColor" enumId="DAMAGE_LAYER_COLOR_BIO_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="LayerThickness" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="BiologicalColonisationinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <attributes>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="numDiffDamages" digits="0" unit=""/>
+      </attributes>
+      <applicableForObjectTypes>STONE</applicableForObjectTypes>
+    </categories>
+    <damageIntensity key="DAMAGE_INTESITY_ENUM" enumId="DAMAGE_INTESITY_ENUM"/>
+    <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM"/>
+  </defaultDamageDataTemplate>
+  <enums id="DAMAGE_EXTENT_ENUM">
+    <elements name="&lt; 25 %" description="" id="0"/>
+    <elements name="25% - 49%" description="" id="1"/>
+    <elements name="50% - 75%" description="" id="2"/>
+    <elements name=">75%" description="" id="3"/>
+  </enums>
+  <enums id="DAMAGE_INTESITY_ENUM">
+    <elements name="None" description="" id="0"/>
+    <elements name="Weak" description="" id="1"/>
+    <elements name="Moderate" description="" id="2"/>
+    <elements name="High" description="" id="3"/>
+    <elements name="Extreme" description="" id="4"/>
+  </enums>
+  <enums id="DamageType_ENUM">
+    <elements name="BiologicalColonisation" description="" id="0"/>
+    <elements name="Deformation" description="" id="1"/>
+    <elements name="Crack" description="" id="2"/>
+    <elements name="Detachment" description="" id="3"/>
+    <elements name="Discoloration&amp;Deposit" description="" id="4"/>
+    <elements name="StructuralLoss" description="" id="5"/>
+    <elements name="MechanicalDamage" description="" id="6"/>
+  </enums>
+  <enums id="DamageImpact_ENUM">
+    <elements name="None" description="" id="0"/>
+    <elements name="Negligible" description="" id="1"/>
+    <elements name="Weak" description="" id="2"/>
+    <elements name="Medium" description="" id="3"/>
+    <elements name="Strong" description="" id="4"/>
+    <elements name="Extreme" description="" id="5"/>
+  </enums>
+  <enums id="DAMAGE_APPEARANCE_BIO_ENUM">
+    <elements name="Alga" description="" id="0"/>
+    <elements name="Lichen" description="" id="1"/>
+    <elements name="Moss" description="" id="2"/>
+    <elements name="Mould" description="" id="3"/>
+    <elements name="Plants" description="" id="4"/>
+  </enums>
+  <enums id="DAMAGE_LAYER_COLOR_BIO_ENUM">
+    <elements name="white" description="" id="0"/>
+    <elements name="grey" description="" id="1"/>
+    <elements name="black" description="" id="2"/>
+    <elements name="orange" description="" id="3"/>
+    <elements name="red" description="" id="4"/>
+    <elements name="brown" description="" id="5"/>
+    <elements name="green" description="" id="6"/>
+  </enums>
+  <enums id="DAMAGE_APPEARANCE_CRACK_ENUM">
+    <elements name="Craquele" description="" id="0"/>
+    <elements name="Fracture" description="" id="1"/>
+    <elements name="HairCrack" description="" id="2"/>
+    <elements name="StarCrack" description="" id="3"/>
+    <elements name="Splitting" description="" id="4"/>
+  </enums>
+  <enums id="DAMAGE_CRACK_DIRECTION_ENUM">
+    <elements name="Horizontal" description="" id="0"/>
+    <elements name="Vertical" description="" id="1"/>
+    <elements name="Diagonal" description="" id="2"/>
+    <elements name="StarLike" description="" id="3"/>
+    <elements name="Netlike" description="" id="4"/>
+    <elements name="Directionless" description="" id="5"/>
+    <elements name="Aligned to stone structure" description="" id="6"/>
+  </enums>
+  <enums id="DAMAGE_CRACK_NUMBER_ENUM">
+    <elements name="One" description="" id="0"/>
+    <elements name="Few" description="" id="1"/>
+    <elements name="Many" description="" id="2"/>
+  </enums>
+  <enums id="MaterialLoss_ENUM">
+    <elements name="None" description="" id="0"/>
+    <elements name="Minimal" description="" id="1"/>
+    <elements name="Some" description="" id="2"/>
+    <elements name="Substantial" description="" id="3"/>
+  </enums>
+</de.tw.bimsis.platform.application.ddpart:DamageDataModel>
