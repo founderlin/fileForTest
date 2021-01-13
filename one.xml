@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.tw.bimsis.platform.application.ddpart:DamageDataModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.tw.bimsis.platform.application.ddpart="http://tragwerk-software.de/bimsis/damagedatamodel/1.0.0">
+    <damageDataElements id="12345">
+        <damageIntensity key="damage1" enumId="id123">
+            <value name="DAMAGE_INTESITY" description="DAMAGE_INTESITY"
+    id="2"/>
+        </damageIntensity>
+        <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
+            <value name="DAMAGE_EXTENT" description="DAMAGE_EXTENT" id="0"/>
+        </damageExtent>
+    </damageDataElements>
+    <damageDataElements id="abcde">
+        <damageIntensity key="Erreger" enumId="dass">
+            <value name="DAMAGE_INTESITY" description="DAMAGE_INTESITY"
+    id="23"/>
+        </damageIntensity>
+        <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
+            <value name="DAMAGE_EXTENT" description="DAMAGE_EXTENT" id="4"/>
+        </damageExtent>
+    </damageDataElements>
+</de.tw.bimsis.platform.application.ddpart:DamageDataModel>
