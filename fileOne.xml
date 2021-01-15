@@ -48,53 +48,6 @@
         </attributes>
         <applicableForObjectTypes>STONE</applicableForObjectTypes>
       </subCategories>
-      <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
-        <subCategories id="Alga" categoryName="Alga">
-          <subCategories id="GreenAlga" categoryName="GreenAlga">
-            <attributes>
-              <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
-            </attributes>
-            <applicableForObjectTypes>STONE</applicableForObjectTypes>
-          </subCategories>
-          <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Algainfestation present?"/>
-          </attributes>
-          <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <subCategories id="Lichen" categoryName="Lichen" selected="true">
-          <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Licheninfestation present?"/>
-          </attributes>
-          <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <subCategories id="Moss" categoryName="Moss">
-          <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mossinfestation present?"/>
-          </attributes>
-          <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <subCategories id="Plants" categoryName="Plants">
-          <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Plantsinfestation present?"/>
-          </attributes>
-          <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <subCategories id="Mould" categoryName="Mould">
-          <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mouldinfestation present?"/>
-          </attributes>
-          <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <attributes>
-          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_BIO_ENUM">
-            <value name="Lichen" description="" id="1"/>
-          </nonDocumentFields>
-          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="LayerColor" enumId="DAMAGE_LAYER_COLOR_BIO_ENUM"/>
-          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="LayerThickness" digits="0" unit=""/>
-          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="BiologicalColonisationinfestation present?"/>
-        </attributes>
-        <applicableForObjectTypes>STONE</applicableForObjectTypes>
-      </subCategories>
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
           <value name="BiologicalColonisation" description="" id="0"/>
