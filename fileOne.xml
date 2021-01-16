@@ -49,9 +49,15 @@
         <applicableForObjectTypes>STONE</applicableForObjectTypes>
       </subCategories>
       <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
-        <subCategories id="GreenAlga" categoryName="GreenAlga">
+        <subCategories id="Alga" categoryName="Alga">
+          <subCategories id="GreenAlga" categoryName="GreenAlga">
+            <attributes>
+              <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
+            </attributes>
+            <applicableForObjectTypes>STONE</applicableForObjectTypes>
+          </subCategories>
           <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Algainfestation present?"/>
           </attributes>
           <applicableForObjectTypes>STONE</applicableForObjectTypes>
         </subCategories>
