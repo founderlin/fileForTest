@@ -3,7 +3,6 @@
   <damageDataElements id="67e86b85-f27c-4316-b27d-d93b647584b1">
     <linkData>
       <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT"/>
-      <links linkedElementGuid="36IHWPSpX06u6jpXTlKnMz" linkElementType="BUILDINGELEMENT"/>
     </linkData>
     <categories id="StoneDamage" categoryName="test1">
       <subCategories id="Crack" categoryName="test2">
