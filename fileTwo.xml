@@ -235,4 +235,4 @@
       <value name="" description="" id="3"/>
     </damageExtent>
   </damageDataElements>
-  </de.tw.bimsis.platform.application.ddpart:DamageDataModel>
+</de.tw.bimsis.platform.application.ddpart:DamageDataModel>
