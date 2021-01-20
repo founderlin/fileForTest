@@ -111,10 +111,10 @@
       <applicableForObjectTypes>STONE</applicableForObjectTypes>
     </categories>
     <damageIntensity key="DAMAGE_INTESITY_ENUM" enumId="DAMAGE_INTESITY_ENUM">
-      <value name="" description="" id="1"/>
+      <value name="DAMAGE_INTESITY" description="" id="1"/>
     </damageIntensity>
     <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
-      <value name="" description="" id="0"/>
+      <value name="DAMAGE_EXTENT" description="" id="0"/>
     </damageExtent>
   </damageDataElements>
   <damageDataElements id="28b4a0c0-b14d-40f2-bd4e-db4ece7f7e6e">
@@ -229,10 +229,10 @@
       <applicableForObjectTypes>STONE</applicableForObjectTypes>
     </categories>
     <damageIntensity key="DAMAGE_INTESITY_ENUM" enumId="DAMAGE_INTESITY_ENUM">
-      <value name="" description="" id="4"/>
+      <value name="DAMAGE_INTESITY" description="" id="4"/>
     </damageIntensity>
     <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
-      <value name="" description="" id="3"/>
+      <value name="DAMAGE_EXTENT" description="" id="3"/>
     </damageExtent>
   </damageDataElements>
 </de.tw.bimsis.platform.application.ddpart:DamageDataModel>
