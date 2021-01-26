@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<filepath>
+    <LinkIn>https://raw.githubusercontent.com/founderlin/fileForTest/main/fileTwo.xml</LinkIn>
+    <LinkOut>https://raw.githubusercontent.com/founderlin/fileForTest/main/Menu.xml</LinkOut>
+</filepath>
