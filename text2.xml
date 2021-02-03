@@ -1,0 +1,19 @@
+<?xml version=”1.0″ encoding=”UTF-8″?>
+<RootData>
+ <Key/>
+ <Person>
+  <ID>100</ID>
+  <Name>John Doe</Name>
+ </Person>
+ <Business>
+  <Name>Ladydebug</Name>
+  <website>http://ladydebug.com</website>
+  <Address>2600 Main Street</Address>
+  <City>None</City>
+  <Zip>555555</Zip>
+ </Business>
+ <ExtraData>
+  <Description/>
+  <ID/>
+ </ExtraData>
+</RootData>
