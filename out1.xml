@@ -10,6 +10,8 @@
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="DamageLength" digits="0" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
+          <value description="Crack" id="2" />
+        </nonDocumentFields>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM" />
       </attributes>
