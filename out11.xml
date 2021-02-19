@@ -7,7 +7,7 @@
     <categories categoryName="StoneDamage" applicableForObjectTypes="STONE">
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
-          <value description="Crack" id="2" />
+          <value description="Crack" id="4" />
         </nonDocumentFields>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription" />
