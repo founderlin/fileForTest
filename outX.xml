@@ -131,7 +131,7 @@
         </attributes>
         <subCategories categoryName="SingleCrack" pictureURI="D:\temp\SingleCrack.png">
           <attributes>
-            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="SingleCrackinfestation present?" />
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="SingleCrackinfestation presentXXX?" />
           </attributes>
         </subCategories>
         <subCategories categoryName="Craquele" pictureURI="D:\temp\Craquele.png">
