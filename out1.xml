@@ -4,7 +4,7 @@
     <linkData>
       <links linkedElementGuid="0f9FP5hYTAN8LgmmVrW9Ks" linkElementType="BUILDINGELEMENT" />
     </linkData>
-    <categories categoryName="StoneDamage111" applicableForObjectTypes="STONE222">
+    <categories categoryName="StoneDamage" applicableForObjectTypes="STONE222">
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
           <value description="Crack" id="2" />
@@ -73,7 +73,7 @@
       <links linkedElementGuid="3TG$Jb4rD6fvNQbUALBqY4" linkElementType="BUILDINGELEMENT" />
       <links linkedElementGuid="36IHWPSpX06u6jpXTlKnMz" linkElementType="BUILDINGELEMENT" />
     </linkData>
-    <categories categoryName="StoneDamageAAA" applicableForObjectTypes="STONEbbb">
+    <categories categoryName="StoneDamage" applicableForObjectTypes="STONEbbb">
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
           <value description="BiologicalColonisation" id="0" />
