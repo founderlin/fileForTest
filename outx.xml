@@ -4,7 +4,7 @@
     <linkData>
       <links linkedElementGuid="0f9FP5hYTAN8LgmmVrW9Ks" linkElementType="BUILDINGELEMENT" />
     </linkData>
-    <categories categoryName="StoneDamage" applicableForObjectTypes="STONE">
+    <categories categoryName="StoneDamage111" applicableForObjectTypes="STONE222">
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
           <value description="Crack" id="2" />
