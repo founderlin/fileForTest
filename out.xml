@@ -16,7 +16,7 @@
       </attributes>
       <subCategories categoryName="Crack">
         <attributes>
-          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="AppearanceXXX" enumId="CRACK_APPEARANCE_ENUM" />
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="CRACK_APPEARANCE_ENUM" />
           <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackSpacing" digits="0" unit="" />
           <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit="" />
           <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackWidth" digits="0" unit="" />
@@ -95,7 +95,7 @@
     </categories>
     <categories categoryName="GapDamage" applicableForObjectTypes="JOINT">
       <attributes>
-        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="APPEARANCE_GAP_ENUM" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="AppearanceXXX" enumId="APPEARANCE_GAP_ENUM" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="DamageLength" digits="0" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
