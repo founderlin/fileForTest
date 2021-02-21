@@ -59,7 +59,7 @@
     </categories>
     <categories categoryName="GapDamage" applicableForObjectTypes="JOINT">
       <attributes>
-        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="APPEARANCE_GAP_ENUM" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="AppearanceTTT" enumId="APPEARANCE_GAP_ENUM" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="1" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="DamageLength" digits="9" unit="" />
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
