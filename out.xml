@@ -172,4 +172,41 @@
       </attributes>
     </categories>
   </damageDataElements>
+    <damageDataElements id="67e86b85-f27c-4316-b27d-d93b647584b1">
+    <linkData>
+      <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT" />
+    </linkData>
+    <categories categoryName="StoneDamage" applicableForObjectTypes="STONE">
+      <attributes>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
+          <value description="BiologicalColonisation" id="0" />
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM">
+          <value description="None" id="0" />
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="numDiffDamages" digits="0" unit="" />
+      </attributes>
+      <subCategories categoryName="BiologicalColonisation">
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="BIO_APPEARANCE_ENUM">
+            <value description="Lichen" id="1" />
+          </nonDocumentFields>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="LayerColor" enumId="BIO_LAYER_COLOR" />
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="LayerThickness" digits="0" unit="" />
+        </attributes>
+      </subCategories>
+    </categories>
+    <categories categoryName="GapDamage" applicableForObjectTypes="JOINT">
+      <attributes>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="APPEARANCE_GAP_ENUM" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit="" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="DamageLength" digits="0" unit="" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription" />
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM" />
+      </attributes>
+    </categories>
+  </damageDataElements>
 </de.tw.bimsis.platform.application.ddpart:DamageDataModel>
