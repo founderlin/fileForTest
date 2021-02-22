@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <breakfast_menu>
     <food>
-        <name>Belgian Waffles</name>
+        <name>Rehabilitation Variant A</name>
         <price>$5.95</price>
         <x>100</x>
         <y>120</y>
@@ -11,7 +11,7 @@
         <calories>650</calories>
     </food>
     <food>
-        <name>Strawberry Belgian Waffles</name>
+        <name>Rehabilitation Variant B</name>
         <price>$7.95</price>
         <x>50</x>
         <y>200</y>
@@ -21,7 +21,7 @@
         <calories>900</calories>
     </food>
     <food>
-        <name>Berry-Berry Belgian Waffles</name>
+        <name>Rehabilitation Variant C</name>
         <price>$8.95</price>
         <x>170</x>
         <y>250</y>
@@ -31,7 +31,7 @@
         <calories>900</calories>
     </food>
     <food>
-        <name>French Toast</name>
+        <name>Rehabilitation Variant D</name>
         <price>$4.50</price>
         <x>75</x>
         <y>300</y>
@@ -41,7 +41,7 @@
         <calories>600</calories>
     </food>
     <food>
-        <name>Homestyle Breakfast</name>
+        <name>Rehabilitation Variant E</name>
         <price>$6.95</price>
         <x>300</x>
         <y>200</y>
