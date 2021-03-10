@@ -215,7 +215,7 @@
       </subCategories>
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
-          <value name="BiologicalColonisation" description="" id="0"/>
+          <value name="BiologicalColonisation" description="" id="5"/>
         </nonDocumentFields>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM">
           <value name="" description="" id="4"/>
