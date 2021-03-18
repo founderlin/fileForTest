@@ -100,7 +100,7 @@
           <value name="BiologicalColonisation" description="" id="0"/>
         </nonDocumentFields>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM">
-          <value name="" description="" id="1"/>
+          <value name="" description="" id="9"/>
         </nonDocumentFields>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM">
           <value name="" description="" id="0"/>
