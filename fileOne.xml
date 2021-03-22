@@ -5,7 +5,7 @@
       <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT"/>
     </linkData>
     <categories id="StoneDamage" categoryName="StoneDamage">
-        <subCategories id="Crack" categoryName="Crack">
+      <subCategories id="Crack" categoryName="Crack">
         <subCategories id="Craquele" categoryName="Craquele">
           <attributes>
             <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Craqueleinfestation present?"/>
@@ -47,8 +47,8 @@
           <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Crackinfestation present?"/>
         </attributes>
         <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
-        <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
+      </subCategories>
+      <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
         <subCategories id="Alga" categoryName="Alga">
           <subCategories id="GreenAlga" categoryName="GreenAlga">
             <attributes>
@@ -94,7 +94,7 @@
           <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="BiologicalColonisationinfestation present?"/>
         </attributes>
         <applicableForObjectTypes>STONE</applicableForObjectTypes>
-        </subCategories>
+      </subCategories>
       <attributes>
         <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
           <value name="BiologicalColonisation" description="" id="0"/>
