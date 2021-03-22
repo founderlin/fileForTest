@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.tw.bimsis.platform.application.ddpart:DamageDataModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.tw.bimsis.platform.application.ddpart="http://tragwerk-software.de/bimsis/damagedatamodel/1.0.0">
+  <damageDataElements id="67e86b85-f27c-4316-b27d-d93b647584b1">
+    <linkData>
+      <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT"/>
+    </linkData>
+    <categories id="StoneDamage" categoryName="test1">
+      <subCategories id="Crack" categoryName="test2">
+        <subCategories id="Craquele" categoryName="test3">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Craqueleinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Fracture" categoryName="Fracture">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Fractureinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Splitting" categoryName="Splitting">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Splittinginfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="StarCrack" categoryName="StarCrack">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="StarCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="SingleCrack" categoryName="SingleCrack">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="SingleCrackinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_CRACK_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackDirection" enumId="DAMAGE_CRACK_DIRECTION_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="CrackNumber" enumId="DAMAGE_CRACK_NUMBER_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackSpacing" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackDepth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackWidth" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="CrackLength" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Crackinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <subCategories id="BiologicalColonisation" categoryName="BiologicalColonisation">
+        <subCategories id="Alga" categoryName="Alga">
+          <subCategories id="GreenAlga" categoryName="GreenAlga">
+            <attributes>
+              <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="GreenAlgainfestation present?"/>
+            </attributes>
+            <applicableForObjectTypes>STONE</applicableForObjectTypes>
+          </subCategories>
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Algainfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Lichen" categoryName="Lichen" selected="true">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Licheninfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Moss" categoryName="Moss">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mossinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Plants" categoryName="Plants">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Plantsinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <subCategories id="Mould" categoryName="Mould">
+          <attributes>
+            <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Mouldinfestation present?"/>
+          </attributes>
+          <applicableForObjectTypes>STONE</applicableForObjectTypes>
+        </subCategories>
+        <attributes>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="Appearance" enumId="DAMAGE_APPEARANCE_BIO_ENUM">
+            <value name="Lichen" description="" id="1"/>
+          </nonDocumentFields>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="LayerColor" enumId="DAMAGE_LAYER_COLOR_BIO_ENUM"/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="LayerThickness" digits="0" unit=""/>
+          <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="BiologicalColonisationinfestation present?"/>
+        </attributes>
+        <applicableForObjectTypes>STONE</applicableForObjectTypes>
+      </subCategories>
+      <attributes>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageType" enumId="DamageType_ENUM">
+          <value name="BiologicalColonisation" description="" id="0"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="DamageImpact" enumId="DamageImpact_ENUM">
+          <value name="" description="" id="1"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyEnumField" key="MaterialLoss" enumId="MaterialLoss_ENUM">
+          <value name="" description="" id="0"/>
+        </nonDocumentFields>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyStringField" key="DamageDescription"/>
+        <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyNumberField" key="numDiffDamages" digits="0" unit=""/>
+      </attributes>
+      <applicableForObjectTypes>STONE</applicableForObjectTypes>
+    </categories>
+    <damageIntensity key="DAMAGE_INTESITY_ENUM" enumId="DAMAGE_INTESITY_ENUM">
+      <value name="" description="" id="1"/>
+    </damageIntensity>
+    <damageExtent key="DAMAGE_EXTENT_ENUM" enumId="DAMAGE_EXTENT_ENUM">
+      <value name="" description="" id="0"/>
+    </damageExtent>
+  </damageDataElements>
+</de.tw.bimsis.platform.application.ddpart:DamageDataModel>
