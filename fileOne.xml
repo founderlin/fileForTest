@@ -5,7 +5,7 @@
       <links linkedElementGuid="3_xSBM9f50Ku9cuEqL8qEU" linkElementType="BUILDINGELEMENT"/>
     </linkData>
     <categories id="StoneDamage" categoryName="StoneDamage">
-      <subCategories id="Crack" categoryName="Crack">
+        <subCategories id="Crack" categoryName="Crack">
         <subCategories id="Craquele" categoryName="Craquele">
           <attributes>
             <nonDocumentFields xsi:type="de.tw.bimsis.platform.application.ddpart:KeyBooleanField" key="Craqueleinfestation present?"/>
