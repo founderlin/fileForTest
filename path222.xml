@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <filepath>
-    <linkin>https://raw.githubusercontent.com/founderlin/BIM-SIS_Files/main/index2.xml</linkin>
-    <linkout>https://raw.githubusercontent.com/founderlin/BIM-SIS_Files/main/var4.xml</linkout>
+    <linkin>https://raw.githubusercontent.com/founderlin/CART/main/cart11.xml</linkin>
+    <linkout>https://raw.githubusercontent.com/founderlin/CART/main/cart21.xml</linkout>
 </filepath>
